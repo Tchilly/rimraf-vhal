@@ -67,7 +67,10 @@ food:
 ooze:
   pickup: no
 
-# This will make metal float in water and teleportable.
+# This will make metal teleportable.
 metal:
-  floating: yes
   teleportable: yes
+
+# This will all items float in water.
+all:
+  floating: yes
