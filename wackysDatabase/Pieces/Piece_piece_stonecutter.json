@@ -1,0 +1,20 @@
+{
+    "name": "piece_stonecutter",
+    "m_name": "$piece_stonecutter",
+    "m_description": "$piece_craftingstation",
+    "clone": false,
+    "clonePrefabName": "",
+    "cloneMaterial": "",
+    "craftingStation": "$piece_workbench",
+    "piecehammer": "Hammer",
+    "piecehammerCategory": "Crafting",
+    "minStationLevel": 1,
+    "amount": 1,
+    "disabled": false,
+    "adminonly": false,
+    "reqs": [
+        "Wood:10:1:True",
+        "Bronze:2:1:True",
+        "Stone:4:1:True"
+    ]
+}
