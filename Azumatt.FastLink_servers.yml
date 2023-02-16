@@ -2,7 +2,9 @@
 # Servers are automatically sorted alphabetically when shown in the list.
 # This file live updates the in-game listing. Feel free to change it while in the main menu.
 
-Mojiitek:
-  address: example.com
-  port: 1234
-  password: somepassword
+Mojiitek server:
+  address: 51.83.121.228
+  port: 2456
+  password: ltj8y4bmbn
+  iscrossplay: false
+  ispvp: false
