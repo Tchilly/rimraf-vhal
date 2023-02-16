@@ -32,18 +32,27 @@ groups:
     - Fine Wood
     - Core Wood
     - Ancient Bark
+  Huge Stone Gain:
+    - Stone
+    - Flint
 
-# This will increase the default stack size for all items in this group by 50% (multiplied by 1.5).
+# This will increase the default stack size for all items in this group by 100% (multiplied by 2).
 Huge Wood Stacks:
-  stack factor: 1.5
+  stack factor: 4
+  weight: 50
+
+# This will increase the default stack size for all items in this group by 100% (multiplied by 2).
+Huge Stone Stacks:
+  stack factor: 4
+  weight: 50
 
 # This will increase wood gained by 10%, until you reach the first world level.
-wood:
-  weight: 10
-  stack: 100
-  # amount:
-  #   0: 1.1
-  #   1: default
+# wood:
+# weight: 10
+# stack: 100
+# amount:
+#   0: 1.1
+#   1: default
 
 # This will make dragon eggs teleportable.
 dragon egg:
