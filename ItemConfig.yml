@@ -43,8 +43,8 @@ Huge Wood Stacks:
 
 # This will increase the default stack size for all items in this group by 100% (multiplied by 2).
 Huge Stone Stacks:
-  stack factor: 4
-  weight: 50
+  stack factor: 2
+  weight: 25
 
 # This will increase wood gained by 10%, until you reach the first world level.
 # wood:
