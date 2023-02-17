@@ -48,6 +48,9 @@ Woods:
 Stones:
   stack: 100
 
+Metals:
+  stack: 50
+
 ore:
   weight: 8
   stack: 50
