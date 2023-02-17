@@ -27,24 +27,34 @@
 
 # Examples:
 groups:
-  Huge Wood Gain:
+  Woods:
     - Wood
     - Fine Wood
     - Core Wood
     - Ancient Bark
-  Huge Stone Gain:
+  Stones:
     - Stone
     - Flint
+    - Black marble
+  Metals:
+    - Copper
+    - Tin
+    - Bronze
+    - Iron
 
-# This will increase the default stack size for all items in this group by 100% (multiplied by 2).
-Huge Wood Stacks:
-  stack factor: 4
-  weight: 50
+Woods:
+  stack: 200
 
-# This will increase the default stack size for all items in this group by 100% (multiplied by 2).
-Huge Stone Stacks:
-  stack factor: 2
-  weight: 25
+Stones:
+  stack: 100
+
+ore:
+  weight: 8
+  stack: 50
+
+metal:
+  weight: 10
+  stack: 50
 
 # This will increase wood gained by 10%, until you reach the first world level.
 # wood:
@@ -58,16 +68,6 @@ Huge Stone Stacks:
 dragon egg:
   teleportable: yes
 
-# This will make ore lighter and increase the stack size.
-ore:
-  weight: 10
-  stack: 50
-
-# This will make ore lighter and increase the stack size.
-stone:
-  weight: 10
-  stack: 50
-
 # This will make you keep your food in the inventory, if you happen to die.
 food:
   loss: no
@@ -75,10 +75,6 @@ food:
 # This will stop your character from picking up Ooze automatically.
 ooze:
   pickup: no
-
-# This will make metal teleportable.
-metal:
-  teleportable: yes
 
 # This will all items float in water.
 all:
