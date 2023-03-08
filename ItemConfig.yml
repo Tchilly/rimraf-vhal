@@ -75,10 +75,6 @@ dragon egg:
 food:
   loss: no
 
-# This will stop your character from picking up Ooze automatically.
-ooze:
-  pickup: no
-
 # This will all items float in water.
 all:
   floating: yes
